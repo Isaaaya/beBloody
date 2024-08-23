@@ -3,7 +3,7 @@ import ThemedContainer from '@/components/common/ThemedContainer'
 import { IUser } from '@/interfaces/user.interface'
 import FormField from '@/components/common/FormField'
 import ThemedTouchableOpacity from '@/components/common/ThemedTouchableOpacity'
-import { Link } from 'expo-router'
+import { Link, router } from 'expo-router'
 
 const AuthScreen = ({user, setUser, authType}: {user: IUser, setUser: (user: IUser) => void, authType: 'sign-in' | 'sign-up'}) => {
 
@@ -15,7 +15,7 @@ const AuthScreen = ({user, setUser, authType}: {user: IUser, setUser: (user: IUs
                 {Object.getOwnPropertyNames(user).map((entry) => <FormField key={entry} type={entry} handleChangeText={(value: string) => {setUser({...user, [entry]: value})}} />)}
             </View>
             <View className='mt-3'>
-                <ThemedTouchableOpacity onPress={() => {}} isLoading={false} isError={false} caption={authType.split('-').join(' ')} customStyles='bg-secondary h-14' textStyles='font-semibold text-[22px] capitalize text-white'  />
+                <ThemedTouchableOpacity onPress={() => {router.replace('/home')}} isLoading={false} isError={false} caption={authType.split('-').join(' ')} customStyles='bg-secondary h-14' textStyles='font-semibold text-[22px] capitalize text-white'  />
                 <Text className='mt-2 text-xl font-semibold'>
                     {authType === 'sign-in' ? 
                     'Don`t have an account yet?' : 
