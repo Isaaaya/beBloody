@@ -29,4 +29,54 @@ export const introductionTips = [
         title: 'Help someone survive',
         description: 'Make a life-saving difference by donating blood. Your contribution can turn a critical situation into a hopeful recovery for those in need.'
     }
+];
+
+export const banners = [
+    {
+        image: require('./assets/images/banner0.jpg'),
+        reference: '<a href="https://www.freepik.com/free-vector/flat-world-blood-donor-day-instagram-stories-collection_27561435.htm#fromView=keyword&page=1&position=1&uuid=588fe178-9e83-4fa2-80bf-a4e9ad19841f">Image by freepik</a>',
+    },
+    {
+        image: require('./assets/images/banner1.jpg'),
+        reference: '<a href="https://www.freepik.com/free-vector/hand-drawn-world-blood-donor-day-instagram-stories-collection_26147609.htm#fromView=keyword&page=1&position=2&uuid=588fe178-9e83-4fa2-80bf-a4e9ad19841f">Image by freepik</a>',
+    },
+    {
+        image: require('./assets/images/banner2.jpg'),
+        reference: '<a href="https://www.freepik.com/free-vector/flat-horizontal-banner-template-world-blood-donor-day_41688845.htm#fromView=keyword&page=2&position=15&uuid=588fe178-9e83-4fa2-80bf-a4e9ad19841f">Image by freepik</a>',
+    },
+    {
+        image: require('./assets/images/banner3.jpg'),
+        reference: '<a href="https://www.freepik.com/free-vector/flat-horizontal-banner-template-world-blood-donor-day-awareness_43175392.htm#fromView=keyword&page=2&position=13&uuid=588fe178-9e83-4fa2-80bf-a4e9ad19841f">Image by freepik</a>',
+    },
+    {
+        image: require('./assets/images/banner4.jpg'),
+        reference: '<a href="https://www.freepik.com/free-vector/flat-instagram-stories-collection-world-blood-donor-day_41490558.htm#fromView=keyword&page=2&position=16&uuid=588fe178-9e83-4fa2-80bf-a4e9ad19841f">Image by freepik</a>',
+    },
+];
+
+export const mainScreens = [
+    {
+        title: 'Find Donors',
+        icon: require('./assets/icons/find-donors.png'),
+    },
+    {
+        title: 'Donates',
+        icon: require('./assets/icons/donates.png'),
+    },
+    {
+        title: 'Order Blood',
+        icon: require('./assets/icons/order-blood.png'),
+    },
+    {
+        title: 'Assistant',
+        icon: require('./assets/icons/assistant.png'),
+    },
+    {
+        title: 'Report',
+        icon: require('./assets/icons/report.png'),
+    },
+    {
+        title: 'Campaign',
+        icon: require('./assets/icons/campaign.png'),
+    },
 ]
