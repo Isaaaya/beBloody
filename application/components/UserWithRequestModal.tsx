@@ -27,7 +27,7 @@ const UserWithRequestModal = ({modalVisible, setModalVisible}: {modalVisible: bo
               </View>
             </View>
             <View className='flex flex-row mt-5'>
-                {[{caption: 'Times Requested', icon: require('../assets/icons/find-donors.png'), value: 6 }, {caption: 'Blood Type -', icon: require('../assets/icons/blood.png'), value: 'AB+'}].map((userInfo) => <View className='w-[48%] flex items-center justify-center space-y-2'>
+                {[{caption: 'Times Requested', icon: require('../assets/icons/find-donors.png'), value: 6 }, {caption: 'Blood Type -', icon: require('../assets/icons/blood.png'), value: 'AB+'}].map((userInfo) => <View key={userInfo.caption} className='w-[48%] flex items-center justify-center space-y-2'>
                     <Image source={userInfo.icon as ImageSourcePropType} className='w-9 h-9' />
                     <Text className='text-[17px] font-semibold'>
                         {userInfo.caption}
