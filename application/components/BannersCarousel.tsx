@@ -8,7 +8,7 @@ const BannersCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setBannerIndex((prev) => (prev + 1) % banners.length);
-    }, 6000);
+    }, 8000);
   
     return () => clearInterval(interval);
   }, []);

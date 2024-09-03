@@ -1,4 +1,4 @@
-import { View, Text, Image, ImageSourcePropType, TouchableOpacity } from 'react-native';
+import { View, Text, Image, ImageSourcePropType } from 'react-native';
 import React from 'react';
 import ThemedTouchableOpacity from './common/ThemedTouchableOpacity';
 
