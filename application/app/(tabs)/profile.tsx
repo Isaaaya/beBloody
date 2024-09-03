@@ -45,7 +45,7 @@ const Profile = () => {
                     onValueChange={() => {}}
                     value={true} />
                 </View>
-                {buttons.map((button) => <View className='flex flex-row items-center justify-between shadow-sm'>
+                {buttons.map((button) => <View key={button.caption} className='flex flex-row items-center justify-between shadow-sm'>
                   <View className='flex flex-row items-center gap-3'>
                     <Image source={button.icon as ImageSourcePropType} className='w-7 h-7' />
                     <TouchableOpacity onPress={button.func}>

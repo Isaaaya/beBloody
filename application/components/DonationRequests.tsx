@@ -6,7 +6,7 @@ const DonationRequests = () => {
   return (
     <View className='space-y-4 mt-7'>
       <Text className='text-xl font-semibold'>
-        Latest Donation Requests
+        Latest Blood Requests
       </Text>
       <View className='space-y-5'>
         {[{name: 'Bob Rogers', location: 'Lviv Central Hospital'}, {name: 'Rob Rogers', location: 'Lviv Central Hospital'}].map((person, index) => (

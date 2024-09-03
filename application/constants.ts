@@ -80,3 +80,122 @@ export const mainScreens = [
         icon: require('./assets/icons/campaign.png'),
     },
 ]
+
+export const hospitals = [
+    {
+      name: "Lviv Regional Clinical Hospital",
+      address: "45 Chernihivska St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8334,
+        longitude: 24.0233
+      },
+      phone: 380,
+      images: [
+        "http://photos.wikimapia.org/p/00/06/20/94/41_960.jpg",
+        "http://photos.wikimapia.org/p/00/08/82/49/28_960.jpg",
+        "http://photos.wikimapia.org/p/00/06/20/94/39_960.jpg"
+      ]
+    },
+    {
+      name: "Lviv City Clinical Emergency Hospital",
+      address: "8 Mykoly Kulisha St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8492,
+        longitude: 24.0253
+      },
+      phone: 380,
+      images: [
+        "http://photos.wikimapia.org/p/00/03/12/84/37_960.jpg",
+        "http://photos.wikimapia.org/p/00/03/12/84/38_960.jpg"
+      ]
+    },
+    {
+      name: "St. Paraskeva Medical Center",
+      address: "109A Smal-Stotskoho St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8117,
+        longitude: 23.9729
+      },
+      phone: 380,
+      images: [
+        "https://medcenter.lviv.ua/templates/images/articles/d67cb5cde6f33cf9ef935a01e62ef5fd.jpg",
+        "https://avr-development.com/wp-content/uploads/2024/03/preview-4336.jpg"
+      ]
+    },
+    {
+      name: "Lviv City Children's Clinical Hospital",
+      address: "13 Pylypa Orlyka St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8603,
+        longitude: 24.0229
+      },
+      phone: 380,
+      images: [
+        "https://rmhc.org.ua/wp-content/uploads/photo_2023-03-24_18-14-31-1.jpg",
+        "https://rmhc.org.ua/wp-content/uploads/photo_2023-07-07_13-46-02.jpg"
+      ]
+    },
+    {
+      name: "Western Ukrainian Specialized Children's Medical Center",
+      address: "27 Dnistrovska St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8355,
+        longitude: 24.0054
+      },
+      phone: 380,
+      images: [
+        "https://lh3.googleusercontent.com/p/AF1QipOjWc6nmwy1Yz0M7VNxiPaBPHWS8SxYn8Xmb00=s1360-w1360-h1020",
+        "https://lh3.googleusercontent.com/p/AF1QipNn6EXL151xd6Un3biwejvqkqyhJCjk2bkyW7TK=s1360-w1360-h1020"
+      ]
+    },
+    {
+      name: "Lviv Regional Hospital for War Veterans and Repressed Persons",
+      address: "33 Ivana Franka St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8316,
+        longitude: 24.0385
+      },
+      phone: 380,
+      images: [
+        "https://lh3.googleusercontent.com/p/AF1QipMjDZuuw0aQBnGDHEK9LIGqY799YSXJOJUkofCI=s1360-w1360-h1020",
+        "https://lh3.googleusercontent.com/p/AF1QipPKRu9x3ply4Kp3iG0t_Ym-r4e5ttvv3H6WxzG7=s1360-w1360-h1020"
+      ]
+    },
+    {
+      name: "Lviv Regional Infectious Diseases Clinical Hospital",
+      address: "5 Kyryla i Mefodiya St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8361,
+        longitude: 24.0277
+      },
+      phone: 380,
+      images: [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVFX6vr5BDemMf447d7bxIaOJktU_sytswwg&s"
+      ]
+    },
+    {
+      name: "Lviv City Hospital No. 8",
+      address: "1a Konovaltsia St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8321,
+        longitude: 24.0107
+      },
+      phone: 380,
+      images: [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-kbWd7wNEyjdNBfvHzg3K3QaWOx9VtVEiw&s"
+      ]
+    },
+    {
+      name: "Lviv City Clinical Maternity Hospital No. 1",
+      address: "15 Melnika St, Lviv, Ukraine",
+      coordinates: {
+        latitude: 49.8389,
+        longitude: 24.0134
+      },
+      phone: 380,
+      images: [
+        "https://lviv.virtual.ua/images/507200/",
+        "https://total-croatia-news.com/wp-content/uploads/2022/02/50fbbf7f5a02bc8aa4a66e54b507aea9-scaled.jpg"
+      ]
+    }
+  ];      
