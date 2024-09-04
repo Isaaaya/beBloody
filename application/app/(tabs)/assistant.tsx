@@ -2,14 +2,14 @@ import { SafeAreaView, Text } from 'react-native'
 import ThemedContainer from '@/components/common/ThemedContainer'
 import React from 'react'
 
-const Report = () => {
+const Assistant = () => {
   return (
     <SafeAreaView>
         <ThemedContainer>
-            <Text>Report</Text>
+            <Text>Assistant</Text>
         </ThemedContainer>
     </SafeAreaView>
   )
 }
 
-export default Report
+export default Assistant

@@ -14,7 +14,7 @@ export default function TabLayout() {
   const tabs = [
     {caption: 'home', icon: require('../../assets/icons/home.png')}, 
     {caption: 'search', icon: require('../../assets/icons/search.png')}, 
-    {caption: 'report', icon: require('../../assets/icons/report.png')}, 
+    {caption: 'assistant', icon: require('../../assets/icons/assistant.png')}, 
     {caption: 'profile', icon: require('../../assets/icons/name.png')}
   ];
 

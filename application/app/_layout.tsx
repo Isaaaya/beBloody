@@ -26,7 +26,7 @@ export default function RootLayout() {
     return null;
   }
 
-  const screens = ["index", "(auth)", "(tabs)", "+not-found"];
+  const screens = ["index", "(auth)", "(tabs)", "+not-found", 'order-blood'];
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>

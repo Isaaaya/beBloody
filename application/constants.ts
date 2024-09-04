@@ -66,6 +66,7 @@ export const mainScreens = [
     {
         title: 'Order Blood',
         icon: require('./assets/icons/order-blood.png'),
+        link: '/order-blood'
     },
     {
         title: 'Assistant',

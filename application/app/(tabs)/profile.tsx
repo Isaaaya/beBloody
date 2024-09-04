@@ -29,7 +29,7 @@ const Profile = () => {
               </View>
             </View>
             <View className='flex flex-row justify-between pb-2 border-b border-gray-300'>
-                {Object.entries({bloodType: 'A+', donated: '05', requested: '02'}).map(([key, value]) => <View className='flex flex-col items-center w-[32%]'>
+                {Object.entries({bloodType: 'A+', donated: '05', requested: '02'}).map(([key, value]) => <View key={key} className='flex flex-col items-center w-[32%]'>
                   <Text className='text-3xl font-bold capitalize'>{value}</Text>
                   <Text className='text-lg font-semibold text-gray-400 capitalize'>{key}</Text>
                 </View>)}
