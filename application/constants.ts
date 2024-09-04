@@ -58,6 +58,7 @@ export const mainScreens = [
     {
         title: 'Find Donors',
         icon: require('./assets/icons/find-donors.png'),
+        link: '/find-donors'
     },
     {
         title: 'Donates',

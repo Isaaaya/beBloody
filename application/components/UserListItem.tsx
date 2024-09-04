@@ -2,11 +2,11 @@ import { View, Text, Image, ImageSourcePropType, TouchableOpacity } from 'react-
 import React, { useState } from 'react'
 import UserWithRequestModal from './UserWithRequestModal';
 
-const UserWithRequest = () => {
+const UserListItem = () => {
 const [modalVisible, setModalVisible] = useState(false);
 
   return (
-        <TouchableOpacity onPress={() => setModalVisible(true)} className='flex flex-row w-full h-20 mb-5 bg-white rounded-lg shadow-md'>
+        <TouchableOpacity onPress={() => setModalVisible(true)} className='flex flex-row w-full h-20 mb-3 bg-white rounded-lg shadow-md'>
             <Image source={require('../assets/images/blood-donor-day.png') as ImageSourcePropType} className='w-20 h-20' />
             <View className='items-center justify-center'>
                 <Text className='text-xl font-semibold'>Bob Robert</Text>
@@ -29,4 +29,4 @@ const [modalVisible, setModalVisible] = useState(false);
   )
 }
 
-export default UserWithRequest
+export default UserListItem
